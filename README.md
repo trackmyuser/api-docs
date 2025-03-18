@@ -6,7 +6,7 @@
 https://api.trackmyuser.com
 ```
 
-## 1. S2S Events Request
+## 1. S2S Event Request
 
 ### Overview
 
