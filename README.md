@@ -1,14 +1,36 @@
 ![logo](https://github.com/user-attachments/assets/0d41b803-968a-41a8-809a-0dd3d91ec489)
 
-Base URL: https://api.trackmyuser.com
+## 
+
+```perl
+https://api.trackmyuser.com
+```
 
 ## 1. S2S Events Request
 
-Endpoint: POST /v1/measurement/event/s2s/create
+### Overview
 
-Request Body:
+The endpoint is used to ingest events from your server.
 
-Example Request:
+### Endpoint: 
+
+```perl
+POST /v1/measurement/event/s2s/create
+```
+
+### Request Paramerters
+
+| Parameter   | DataType | Summary  |
+|--------|----:|---------|
+| app_token  |  String | Your app's SDK token      |
+| s2s_key    |  String | Token used to authenticate your request  |
+| user_id|  String | User ID set by the SDK      |
+| event_code|  String | The code of the event created in the dashboard      |
+| revenue_value|  Float |  Revenue value of the event      |
+| revenue_currency|  String | ISO 4217 alphabetic representation of the curreny     |
+
+
+### Example Request Body
 
 ```json
 {
