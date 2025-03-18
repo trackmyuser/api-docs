@@ -23,7 +23,7 @@ POST /v1/measurement/event/s2s/create
 | Parameter   | DataType | Summary  |
 |--------|----:|---------|
 | app_token  |  String | Your app's SDK token      |
-| s2s_key    |  String | Token used to authenticate your request  |
+| s2s_key    |  String | The token used to authenticate your request  |
 | user_id|  String | User ID set by the SDK      |
 | event_code|  String | The code of the event created in the dashboard      |
 | revenue_value|  Float |  Revenue value of the event      |
